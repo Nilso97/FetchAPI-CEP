@@ -4,7 +4,7 @@ const cep = document.querySelector('#cep');
 const showData = (result) => {
     for (let campo in result) {
 
-        //Verificando se existe os 'id'
+        //Verificando se os campos existem no formulário através dos 'id' = '#'
         if (document.querySelector('#' + campo)) {
             document.querySelector('#' + campo).value = result[campo];
         };
