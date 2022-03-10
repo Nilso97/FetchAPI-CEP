@@ -7,9 +7,9 @@ const showData = (result) => {
         //Verificando se os campos existem no formulário através dos 'id' = '#'
         if (document.querySelector('#' + campo)) {
             document.querySelector('#' + campo).value = result[campo];
-        };
-    };
-};
+        }
+    }
+}
 
 cep.addEventListener('blur', (e) => {
 
@@ -20,7 +20,7 @@ cep.addEventListener('blur', (e) => {
         method: 'GET',
         mode: 'cors',
         cache: 'default'
-    };
+    }
 
     fetch(`https://viacep.com.br/ws/${search}/json`, options)
 
@@ -34,4 +34,4 @@ cep.addEventListener('blur', (e) => {
 
         // Se não funcionar:
         .catch(erro => console.log("Status: [ERROR]" + erro, message));
-});
+})
