@@ -33,5 +33,5 @@ cep.addEventListener('blur', (e) => {
         })
 
         // Se não funcionar:
-        .catch(erro => console.log("Status: [ERROR]" + erro, message));
+        .catch(erro => console.log("Status: [400 Bad Request] Message: Aconteceu algum erro!" + erro, message));
 })
