@@ -5,4 +5,4 @@ Foi baseada e feita com auxílio de um dos vídeos do Canal Hcode - https://www.
 
 Utiliza a API externa https://viacep.com.br/ para fazer a consulta pelo CEP, retornando com todos os dados sendo exibidos no Formulário.
 
-
+![cep](https://user-images.githubusercontent.com/96146165/158839240-7e3e49af-fca2-423a-9147-cea3ef6080ff.png)
